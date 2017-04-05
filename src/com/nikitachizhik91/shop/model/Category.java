@@ -1,8 +1,8 @@
-package shoptask.model;
+package com.nikitachizhik91.shop.model;
 
 public class Category {
 
-    private String categoryName;
+	private String categoryName;
 
 	public Category() {
 	}
@@ -18,7 +18,6 @@ public class Category {
 	public void setCategoryName(String categoryName) {
 		this.categoryName = categoryName;
 	}
-
 
 	@Override
 	public int hashCode() {
@@ -47,9 +46,6 @@ public class Category {
 
 	@Override
 	public String toString() {
-		return "Category [categoryName=" + categoryName + ", getCategoryName()="
-				+ getCategoryName() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
-				+ super.toString() + "]";
+		return "Category [categoryName=" + categoryName + "]";
 	}
-
 }

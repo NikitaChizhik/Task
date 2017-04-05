@@ -1,3 +1,0 @@
-# ShopTask
-# ShopTask
-# ShopTask

@@ -1,8 +1,8 @@
-package shoptask.model;
+package com.nikitachizhik91.shop.model;
 
-import java.util.Comparator;
 
-public class SportEquipment implements Comparator<SportEquipment>{
+public class SportEquipment {
+
 	private int id;
 	private Category category;
 	private String title;
@@ -18,14 +18,6 @@ public class SportEquipment implements Comparator<SportEquipment>{
 		this.price = price;
 	}
 
-	
-	@Override
-	public int compare(SportEquipment o1, SportEquipment o2) {
-		
-		return o1.getTitle().compareTo(o2.getTitle());
-	}
-	
-	
 	public int getId() {
 		return id;
 	}
@@ -94,10 +86,7 @@ public class SportEquipment implements Comparator<SportEquipment>{
 
 	@Override
 	public String toString() {
-		return String.format("category=%-10s title=%-10s price=%-10d id=%d", getCategory().getCategoryName(), getTitle(),
-				getPrice(),getId());
+		return String.format("category=%-10s title=%-10s price=%-10d id=%d", getCategory().getCategoryName(),
+				getTitle(), getPrice(), getId());
 	}
-
-	
-
 }

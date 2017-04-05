@@ -1,0 +1,7 @@
+
+[INFO ] 2017-04-05 11:46:28 Shop - Found unit=category=little     title=hat        price=92         id=4 by id=4
+[INFO ] 2017-04-05 11:46:28 Shop - Added unit=category=little     title=hat        price=92         id=4
+[INFO ] 2017-04-05 11:46:28 Shop - Deleted unit=category=little     title=hat        price=92         id=4
+[INFO ] 2017-04-05 11:46:28 Shop - Found unit=category=large      title=coat       price=301        id=1 by id=1
+[INFO ] 2017-04-05 11:46:28 Shop - Added unit=category=large      title=coat       price=301        id=1
+[INFO ] 2017-04-05 11:46:28 Shop - Deleted unit=category=large      title=coat       price=301        id=1
