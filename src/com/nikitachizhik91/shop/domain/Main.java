@@ -1,7 +1,9 @@
 package com.nikitachizhik91.shop.domain;
 
+import java.util.List;
 import java.util.Map;
 
+import com.nikitachizhik91.shop.model.Customer;
 import com.nikitachizhik91.shop.model.RentUnit;
 import com.nikitachizhik91.shop.model.SportEquipment;
 
@@ -15,63 +17,84 @@ public class Main {
 		try {
 			shop = new Shop(DataReader.fromFile(DATA_FILE_PATH));
 
-			System.out.println("first state__________");
+			Customer customer = new Customer();
+			customer.setId(1);
+			customer.setName("Petr");
+			RentUnit rentUnit = new RentUnit();
+			customer.setRentUnit(rentUnit);
 
-			showAllEquipment(shop.getGoods());
+			shop.addCustomer(customer);
 
-			String iWantHat = "Hat".toLowerCase();
-			System.out.println();
-			System.out.println("shows the equipment with the chosen item.");
-			shop.showEquipmentUnitsWithTitle(iWantHat);
+			Customer customer2 = new Customer();
+			customer2.setId(2);
+			customer2.setName("Paul");
+			RentUnit rentUnit2 = new RentUnit();
+			customer2.setRentUnit(rentUnit2);
 
-			// let's choose item with id 4.
-			System.out.println("\n We chose the id 4.");
+			shop.addCustomer(customer2);
+
+			show(shop.findAllCustomers());
+
+			show(shop.findAllSportEquipment());
+
+			String title = "Hat".toLowerCase();
+			show(shop.findEquipmentUnitsWithTitle(title));
+
 			int unitId = 4;
-			shop.chooseUnit(unitId);
+			SportEquipment sportEquipment = shop.findSportEquipmentById(unitId);
 
-			System.out.println("\n Current state of the shop's goods__________");
-			showAllEquipment(shop.getGoods());
-			System.out.println("\n Rented items:__________");
-			showAllRentedItems(shop.rentUnit);
+			int quantity = 3;
+			if (shop.rentEquipmentToCustomer(sportEquipment, quantity, customer)) {
+				shop.remove(sportEquipment, quantity);
+			}
+			show(shop.findAllSportEquipment());
 
-			System.out.println("\n\n\n\n\n Second state__________");
+			title = "Coat".toLowerCase();
+			show(shop.findEquipmentUnitsWithTitle(title));
 
-			showAllEquipment(shop.getGoods());
-
-			String iWantCoat = "Coat".toLowerCase();
-			System.out.println();
-			System.out.println("shows the equipment with the chosen item.");
-			shop.showEquipmentUnitsWithTitle(iWantCoat);
-
-			System.out.println("\n We chose the id 1.");
 			unitId = 1;
-			shop.chooseUnit(unitId);
+			SportEquipment sportEquipment2 = shop.findSportEquipmentById(unitId);
 
-			System.out.println("\n Current state of the shop's goods__________");
-			showAllEquipment(shop.getGoods());
-			System.out.println("\n Rented items:__________");
-			showAllRentedItems(shop.rentUnit);
+			if (shop.rentEquipmentToCustomer(sportEquipment2, quantity, customer2)) {
+				shop.remove(sportEquipment2, quantity);
+			}
+
+			//proveri pochemu en pokazivaet
+			
+			if (shop.rentEquipmentToCustomer(sportEquipment2, quantity, customer2)) {
+				shop.remove(sportEquipment2, quantity);
+			}
+
+			//pokazat shto budet v raznix situaziaya ex goda beret mnogo tovarov massiv enlarge!
+			
+			show(shop.findAllCustomers());
+
+			show(shop.findAllSportEquipment());
 
 		} catch (DomainException e) {
 			e.printStackTrace();
 		}
 	}
 
-	private static void showAllRentedItems(RentUnit rentUnit) {
-		if (rentUnit.getRentUnits() == null) {
-			System.out.println("There is no rented units.");
+	private static void show(List<Customer> customers) {
+		if (customers == null) {
+			System.out.println("There is no customers.");
 		}
-		for (SportEquipment unit : rentUnit.getRentUnits()) {
-			if (unit == null) {
-				return;
-			}
-			System.out.println(unit);
+
+		for (Customer customer : customers) {
+
+			System.out.println(customer);
+			System.out.println();
 		}
+
+		System.out.println("\n\n\n");
 	}
 
-	private static void showAllEquipment(Map<SportEquipment, Integer> goods) {
+	private static void show(Map<SportEquipment, Integer> goods) {
+
 		for (Map.Entry<SportEquipment, Integer> entry : goods.entrySet()) {
 			System.out.println(entry.getKey() + "   number of units:" + entry.getValue());
 		}
+		System.out.println("\n\n\n");
 	}
 }

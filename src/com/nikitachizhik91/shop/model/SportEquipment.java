@@ -1,6 +1,5 @@
 package com.nikitachizhik91.shop.model;
 
-
 public class SportEquipment {
 
 	private int id;
@@ -86,7 +85,7 @@ public class SportEquipment {
 
 	@Override
 	public String toString() {
-		return String.format("category=%-10s title=%-10s price=%-10d id=%d", getCategory().getCategoryName(),
-				getTitle(), getPrice(), getId());
+		return String.format("id=%d title=%-10s price=%-10d category=%-10s", getId(), getTitle(), getPrice(),
+				getCategory().getCategoryName());
 	}
 }

@@ -7,7 +7,8 @@ public class RentUnit {
 	private SportEquipment[] rentUnits;
 
 	public RentUnit() {
-		rentUnits = new SportEquipment[20];
+		rentUnits = new SportEquipment[5];
+		// uvelichivat massiv cherez if bez exception
 	}
 
 	public void addUnit(SportEquipment unit) {
@@ -65,7 +66,17 @@ public class RentUnit {
 
 	@Override
 	public String toString() {
-		return "RentUnit [units=" + Arrays.toString(rentUnits) + "]";
-	}
 
+		StringBuilder stringBuilder = new StringBuilder();
+
+		for (SportEquipment unit : rentUnits) {
+			if (unit == null) {
+				break;
+			}
+			stringBuilder.append("\n");
+			stringBuilder.append(unit.toString());
+
+		}
+		return stringBuilder.toString();
+	}
 }
