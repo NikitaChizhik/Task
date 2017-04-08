@@ -8,14 +8,27 @@ public class RentUnit {
 
 	public RentUnit() {
 		rentUnits = new SportEquipment[5];
-		// uvelichivat massiv cherez if bez exception
 	}
 
 	public void addUnit(SportEquipment unit) {
 
+		checkLength();
+
 		int indexOfEmptySpace = findIndex(rentUnits);
 
 		rentUnits[indexOfEmptySpace] = unit;
+	}
+
+	private void checkLength() {
+		
+		if (rentUnits[4] == null) {
+
+			SportEquipment[] newArray = new SportEquipment[10];
+
+			System.arraycopy(rentUnits, 0, newArray, 0, rentUnits.length);
+
+			rentUnits = newArray;
+		}
 	}
 
 	private int findIndex(SportEquipment[] units) {

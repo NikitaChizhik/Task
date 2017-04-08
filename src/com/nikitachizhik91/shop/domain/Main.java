@@ -9,20 +9,21 @@ import com.nikitachizhik91.shop.model.SportEquipment;
 
 public class Main {
 
-	private final static String DATA_FILE_PATH = "/home/nikita/git/Task/resources/SportFile";
+	private final static String DATA_FILE_PATH = "/home/nikita/eclipse/workspace/RentSportShop_01/resources/SportFile";
 
+	// stoit sysout commentirovat stho proisxodit v console shto bi ponyatnee
+	// bilo?
 	public static void main(String args[]) {
 
 		Shop shop = null;
 		try {
 			shop = new Shop(DataReader.fromFile(DATA_FILE_PATH));
-
+			// zapolnyt iz faila customer?
 			Customer customer = new Customer();
 			customer.setId(1);
 			customer.setName("Petr");
 			RentUnit rentUnit = new RentUnit();
 			customer.setRentUnit(rentUnit);
-
 			shop.addCustomer(customer);
 
 			Customer customer2 = new Customer();
@@ -30,45 +31,81 @@ public class Main {
 			customer2.setName("Paul");
 			RentUnit rentUnit2 = new RentUnit();
 			customer2.setRentUnit(rentUnit2);
-
 			shop.addCustomer(customer2);
 
+			System.out.println("All Customers:");
 			show(shop.findAllCustomers());
 
+			System.out.println("All SportEquipment:");
 			show(shop.findAllSportEquipment());
 
+			System.out
+					.println("____________________________________________________________________________________________________________\n");
+
 			String title = "Hat".toLowerCase();
+			System.out.println("Finding Equipment with title=" + title);
 			show(shop.findEquipmentUnitsWithTitle(title));
 
 			int unitId = 4;
 			SportEquipment sportEquipment = shop.findSportEquipmentById(unitId);
 
-			int quantity = 3;
+			int quantity = 1;
 			if (shop.rentEquipmentToCustomer(sportEquipment, quantity, customer)) {
 				shop.remove(sportEquipment, quantity);
+				System.out.println(customer.getName() + " took " + quantity + " " + sportEquipment.getTitle()
+						+ ". He didn't have more than 3 hats and there was 1 hat in stock.\n");
 			}
+
+			System.out.println("All Equipment:");
 			show(shop.findAllSportEquipment());
 
+			System.out
+					.println("\nNEXT ACTION____________________________________________________________________________________________________________\n");
+
 			title = "Coat".toLowerCase();
+			System.out.println("Finding Equipment with title=" + title);
 			show(shop.findEquipmentUnitsWithTitle(title));
 
 			unitId = 1;
+			quantity = 3;
 			SportEquipment sportEquipment2 = shop.findSportEquipmentById(unitId);
 
+			System.out.println("Paul wants to take 3 coats");
+			if (shop.rentEquipmentToCustomer(sportEquipment2, quantity, customer2)) {
+				shop.remove(sportEquipment2, quantity);
+				System.out.println("Paul rented 3 coats. because he didn't have more than 3 coats.");
+			}
+
+			System.out
+					.println("\nNEXT ACTION____________________________________________________________________________________________________________\n");
+
+			quantity = 1;
+			System.out.println("Paul wants to take 1 more coat.");
 			if (shop.rentEquipmentToCustomer(sportEquipment2, quantity, customer2)) {
 				shop.remove(sportEquipment2, quantity);
 			}
 
-			//proveri pochemu en pokazivaet
-			
-			if (shop.rentEquipmentToCustomer(sportEquipment2, quantity, customer2)) {
-				shop.remove(sportEquipment2, quantity);
+			System.out
+					.println("\nNEXT ACTION____________________________________________________________________________________________________________\n");
+
+			title = "Gloves".toLowerCase();
+			System.out.println("Finding Equipment with title=" + title);
+			show(shop.findEquipmentUnitsWithTitle(title));
+
+			unitId = 5;
+			quantity = 3;
+			SportEquipment sportEquipment3 = shop.findSportEquipmentById(unitId);
+
+			System.out.println("Paul wants to take 3 gloves");
+			if (shop.rentEquipmentToCustomer(sportEquipment3, quantity, customer2)) {
+				shop.remove(sportEquipment3, quantity);
+				System.out.println("Paul rented 3 gloves. now he has 6 rented items.");
 			}
 
-			//pokazat shto budet v raznix situaziaya ex goda beret mnogo tovarov massiv enlarge!
-			
+			System.out.println("\nAll Customers:");
 			show(shop.findAllCustomers());
 
+			System.out.println("All Equipment:");
 			show(shop.findAllSportEquipment());
 
 		} catch (DomainException e) {

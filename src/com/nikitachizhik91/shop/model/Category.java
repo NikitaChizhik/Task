@@ -1,7 +1,7 @@
 package com.nikitachizhik91.shop.model;
 
 public class Category {
-
+	// nazvanie?
 	private String categoryName;
 
 	public Category() {
@@ -46,6 +46,6 @@ public class Category {
 
 	@Override
 	public String toString() {
-		return "Category [categoryName=" + categoryName + "]";
+		return "categoryName=" + categoryName;
 	}
 }
