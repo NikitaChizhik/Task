@@ -13,6 +13,17 @@ public class Main {
 
 	// stoit sysout commentirovat stho proisxodit v console shto bi ponyatnee
 	// bilo?
+
+	// nujno li 2 constructors 1.default.2with parameters
+
+	
+	// nazvanie papok norm project?
+		// 2 metoda v main norm?
+	
+	//logirovanie vezde ili 1 metoda dostatojno. mojem ego check?
+	//json
+	//syso comments a lot of is it norm?
+	
 	public static void main(String args[]) {
 
 		Shop shop = null;

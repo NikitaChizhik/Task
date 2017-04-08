@@ -43,7 +43,7 @@ public final class DataReader {
 				int price = Integer.parseInt(items[2]);
 
 				SportEquipment sportEquipment = new SportEquipment(id++, new Category(category), title, price);
-
+				// counts items is it ok to put it here?
 				if (goods.containsKey(sportEquipment)) {
 					goods.put(sportEquipment, goods.get(sportEquipment) + 1);
 				} else {
@@ -56,7 +56,7 @@ public final class DataReader {
 		} catch (FileNotFoundException e) {
 			log.error("Cannot read data from file with path=" + path, e);
 			throw new DomainException("Cannot read data from file with path=" + path, e);
-
+			// IOExce stho delaet?
 		} catch (IOException e) {
 			log.error("Cannot read data from file with path=" + path, e);
 			throw new DomainException("Cannot read data from file with path=" + path, e);

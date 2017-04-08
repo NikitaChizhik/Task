@@ -22,6 +22,7 @@ public class Shop {
 	public Shop(Map<SportEquipment, Integer> goods) {
 		this.goods = goods;
 		customers = new ArrayList<>();
+		// mojet ix tozje v parameter shtob mol otkudanibud chital.
 	}
 
 	public Customer findCustomer(Customer customerArg) {
