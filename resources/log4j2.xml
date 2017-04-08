@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="info">
 	<Properties>
-		<Property name="log-path">/home/nikita/git/Task/resources
+		<Property name="log-path">/home/nikita/eclipse/workspace/RentSportShop_01_2/resources
 		</Property>
 	</Properties>
 	<Appenders>
 
 
 		<RollingFile name="INFO" fileName="${log-path}/INFO.log"
-			filePattern="${log-path}/commons-%d{yyyy-MM-dd}.log">
+			filePattern="${log-path}/INFO-%d{yyyy-MM-dd}.log">
 			<!-- log pattern -->
 			<PatternLayout>
 				<pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss} %c{1} - %msg%n</pattern>

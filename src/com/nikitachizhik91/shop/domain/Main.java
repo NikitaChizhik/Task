@@ -16,19 +16,18 @@ public class Main {
 
 	// nujno li 2 constructors 1.default.2with parameters
 
-	
 	// nazvanie papok norm project?
-		// 2 metoda v main norm?
-	
-	//logirovanie vezde ili 1 metoda dostatojno. mojem ego check?
-	//json
-	//syso comments a lot of is it norm?
-	
+	// 2 metoda v main norm?
+
+	// logirovanie vezde ili 1 metoda dostatojno. mojem ego check?
+	// json
+	// syso comments a lot of is it norm?
+
 	public static void main(String args[]) {
 
 		Shop shop = null;
 		try {
-			shop = new Shop(DataReader.fromFile(DATA_FILE_PATH));
+			shop = new Shop(JsonDataReader.fromFile(DATA_FILE_PATH));
 			// zapolnyt iz faila customer?
 			Customer customer = new Customer();
 			customer.setId(1);
@@ -57,7 +56,7 @@ public class Main {
 			System.out.println("Finding Equipment with title=" + title);
 			show(shop.findEquipmentUnitsWithTitle(title));
 
-			int unitId = 4;
+			int unitId = 13;
 			SportEquipment sportEquipment = shop.findSportEquipmentById(unitId);
 
 			int quantity = 1;
@@ -103,7 +102,7 @@ public class Main {
 			System.out.println("Finding Equipment with title=" + title);
 			show(shop.findEquipmentUnitsWithTitle(title));
 
-			unitId = 5;
+			unitId = 8;
 			quantity = 3;
 			SportEquipment sportEquipment3 = shop.findSportEquipmentById(unitId);
 

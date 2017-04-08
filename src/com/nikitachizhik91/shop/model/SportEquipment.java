@@ -85,7 +85,7 @@ public class SportEquipment {
 
 	@Override
 	public String toString() {
-		return String.format("id=%d title=%-10s price=%-10d category=%-10s", getId(), getTitle(), getPrice(),
+		return String.format("id=%-5d title=%-10s price=%-10d category=%-10s", getId(), getTitle(), getPrice(),
 				getCategory().getCategoryName());
 	}
 }
