@@ -26,6 +26,12 @@ public class ShopTest {
 		shop.findSportEquipmentById(0);
 	}
 
+	@Test(expected = DomainException.class)
+	public void findCustomerById_Zero_MustThrowException() throws DomainException {
+
+		shop.findSportEquipmentById(0);
+	}
+
 	@Test
 	public void findSportEquipmentById() throws DomainException {
 
@@ -36,7 +42,7 @@ public class ShopTest {
 	}
 
 	@Test
-	public void findCustomer_ById() {
+	public void findCustomerById_Positive() throws DomainException {
 
 		RentUnit rentUnit = new RentUnit();
 		Category category = new Category(2, "medium");
@@ -46,5 +52,11 @@ public class ShopTest {
 		Customer expected = new Customer(2, "Peter", rentUnit);
 
 		assertEquals(expected, shop.findCustomer(2));
+	}
+
+	@Test(expected = DomainException.class)
+	public void findCustomerById_Negative_MustThrowException() throws DomainException {
+
+		shop.findCustomer(-5);
 	}
 }

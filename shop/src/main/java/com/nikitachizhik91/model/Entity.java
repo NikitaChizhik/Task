@@ -2,9 +2,9 @@ package com.nikitachizhik91.model;
 
 public abstract class Entity {
 	// private?
-	int id;
+	private int id;
 
-	String title;
+	private String title;
 
 	public Entity(int id, String title) {
 		this.id = id;

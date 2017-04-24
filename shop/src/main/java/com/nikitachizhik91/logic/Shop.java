@@ -44,7 +44,7 @@ public class Shop {
 
 	public SportEquipment findSportEquipmentById(int id) throws DomainException {
 
-		if (id == 0) {
+		if (id == 0 || id < 0) {
 			log.error("Illegal id=" + id);
 			throw new DomainException("Illegal id=" + id);
 		}
@@ -124,7 +124,12 @@ public class Shop {
 		return true;
 	}
 
-	public Customer findCustomer(int customerId) {
+	public Customer findCustomer(int customerId) throws DomainException {
+
+		if (customerId == 0 || customerId < 0) {
+			log.error("Illegal id=" + customerId);
+			throw new DomainException("Illegal id=" + customerId);
+		}
 
 		for (Customer customer : customers) {
 

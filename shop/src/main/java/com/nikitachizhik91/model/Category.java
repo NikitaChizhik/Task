@@ -10,10 +10,8 @@ public class Category extends Entity {
 		return super.getTitle();
 	}
 
-	
-	
 	@Override
 	public String toString() {
-		return title;
+		return super.getTitle();
 	}
 }
