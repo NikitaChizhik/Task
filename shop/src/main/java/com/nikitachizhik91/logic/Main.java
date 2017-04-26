@@ -82,6 +82,37 @@ public class Main {
 
 			Map<SportEquipment, Integer> treeMap = new TreeMap<>(shop.getGoods());
 			show(treeMap);
+			// ////////////////////////////////////////////////////////
+			System.out
+					.println("______________________________________________________________________________________");
+			title = "COaT".toLowerCase();
+			System.out.println("Finding Equipment with title=" + title);
+
+			requiredItems = shop.findSportEquipment(title);
+			show(requiredItems);
+
+			equipment = null;
+
+			for (SportEquipment item : requiredItems) {
+				equipment = item;
+			}
+
+			equipment = shop.findSportEquipmentById(equipment.getId());
+
+			customer = shop.getCustomers().get(1);
+			quantityToTake = 3;
+
+			if (shop.rentSportEquipment(customer.getId(), equipment.getId(), quantityToTake)) {
+
+				shop.remove(equipment, quantityToTake);
+
+				System.out.println(customer.getName() + " took " + quantityToTake + " " + equipment.getTitle()
+						+ ". He didn't take more than 3 " + title + " and there was " + quantityToTake + " " + title
+						+ " in stock.\n");
+			}
+
+			show(shop.getGoods());
+			show(shop.getCustomers());
 
 		} catch (DomainException e) {
 			e.printStackTrace();

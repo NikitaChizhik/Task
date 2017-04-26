@@ -1,12 +1,535 @@
-
-[INFO ] 2017-04-25 21:21:58 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+[INFO ] 2017-04-26 07:18:18 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
 rentUnit=
 [id=1     title=sweater    price=1000       category=medium    ]
 [id=25    title=hat        price=92         category=little    ]
 
-[INFO ] 2017-04-25 21:21:58 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+[INFO ] 2017-04-26 07:18:18 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
 rentUnit=
 [id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[ERROR] 2017-04-26 07:21:46 JsonDataReader - Cannot read data from file with path=/shop/src/main/resources/JsonGoods
+java.io.FileNotFoundException: /shop/src/main/resources/JsonGoods (Нет такого файла или каталога)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_91]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_91]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_91]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_91]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_91]
+	at com.nikitachizhik91.logic.JsonDataReader.fromGoods(JsonDataReader.java:37) [classes/:?]
+	at com.nikitachizhik91.logic.Shop.<init>(Shop.java:29) [classes/:?]
+	at com.nikitachizhik91.logic.Main.main(Main.java:18) [classes/:?]
+[ERROR] 2017-04-26 07:22:13 JsonDataReader - Cannot read data from file with path=JsonGoods
+java.io.FileNotFoundException: JsonGoods (Нет такого файла или каталога)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_91]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_91]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_91]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_91]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_91]
+	at com.nikitachizhik91.logic.JsonDataReader.fromGoods(JsonDataReader.java:37) [classes/:?]
+	at com.nikitachizhik91.logic.Shop.<init>(Shop.java:29) [classes/:?]
+	at com.nikitachizhik91.logic.Main.main(Main.java:18) [classes/:?]
+[ERROR] 2017-04-26 07:22:27 JsonDataReader - Cannot read data from file with path=JsonGoods.txt
+java.io.FileNotFoundException: JsonGoods.txt (Нет такого файла или каталога)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_91]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_91]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_91]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_91]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_91]
+	at com.nikitachizhik91.logic.JsonDataReader.fromGoods(JsonDataReader.java:37) [classes/:?]
+	at com.nikitachizhik91.logic.Shop.<init>(Shop.java:29) [classes/:?]
+	at com.nikitachizhik91.logic.Main.main(Main.java:18) [classes/:?]
+[ERROR] 2017-04-26 07:22:54 JsonDataReader - Cannot read data from file with path=/JsonGoods.txt
+java.io.FileNotFoundException: /JsonGoods.txt (Нет такого файла или каталога)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_91]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_91]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_91]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_91]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_91]
+	at com.nikitachizhik91.logic.JsonDataReader.fromGoods(JsonDataReader.java:37) [classes/:?]
+	at com.nikitachizhik91.logic.Shop.<init>(Shop.java:29) [classes/:?]
+	at com.nikitachizhik91.logic.Main.main(Main.java:18) [classes/:?]
+[ERROR] 2017-04-26 07:23:00 JsonDataReader - Cannot read data from file with path=/JsonGoods.txt
+java.io.FileNotFoundException: /JsonGoods.txt (Нет такого файла или каталога)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_91]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_91]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_91]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_91]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_91]
+	at com.nikitachizhik91.logic.JsonDataReader.fromGoods(JsonDataReader.java:37) [classes/:?]
+	at com.nikitachizhik91.logic.Shop.<init>(Shop.java:29) [classes/:?]
+	at com.nikitachizhik91.logic.Main.main(Main.java:18) [classes/:?]
+[INFO ] 2017-04-26 07:23:43 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[INFO ] 2017-04-26 07:23:43 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 07:29:40 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[INFO ] 2017-04-26 07:29:42 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 07:30:10 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[INFO ] 2017-04-26 07:30:10 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 07:31:39 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[INFO ] 2017-04-26 07:31:39 Shop - You cannot take more than 3 items.
+[INFO ] 2017-04-26 07:32:13 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[INFO ] 2017-04-26 07:32:13 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 07:33:45 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[INFO ] 2017-04-26 07:33:45 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 07:33:45 Shop - Rented 2 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 07:36:06 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[INFO ] 2017-04-26 07:36:06 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 07:36:09 Shop - Rented 2 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 07:36:39 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[INFO ] 2017-04-26 07:36:39 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 07:36:48 Shop - Rented 2 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 07:38:14 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[INFO ] 2017-04-26 07:38:14 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 07:40:46 Shop - Rented 2 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 07:42:38 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[INFO ] 2017-04-26 07:42:38 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 07:47:05 Shop - Rented 2 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 07:47:29 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[INFO ] 2017-04-26 07:47:29 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 07:47:29 Shop - Rented 2 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 07:48:28 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[INFO ] 2017-04-26 07:48:28 Shop - You cannot take more than 3 items.
+[INFO ] 2017-04-26 07:48:28 Shop - Rented 2 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 07:48:47 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[INFO ] 2017-04-26 07:48:47 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 07:48:47 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 07:48:55 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[INFO ] 2017-04-26 07:48:55 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 07:48:55 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 07:49:53 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[INFO ] 2017-04-26 07:49:53 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 07:50:46 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[INFO ] 2017-04-26 07:50:46 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 07:50:46 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 07:53:20 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[INFO ] 2017-04-26 07:53:20 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 07:53:20 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 07:56:04 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[INFO ] 2017-04-26 07:56:04 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 07:56:04 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 07:57:36 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[INFO ] 2017-04-26 07:57:36 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 08:04:48 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[INFO ] 2017-04-26 08:04:48 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 08:04:48 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 08:05:05 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[INFO ] 2017-04-26 08:05:05 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 08:05:05 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 08:29:14 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[INFO ] 2017-04-26 08:29:14 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 08:29:14 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 08:32:26 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[INFO ] 2017-04-26 08:32:26 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 08:32:26 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 08:34:27 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[INFO ] 2017-04-26 08:34:27 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 08:34:27 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 08:38:16 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[INFO ] 2017-04-26 08:38:16 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 08:38:16 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 08:41:03 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=52    title=Peter     
+rentUnit=
+[id=51    title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[INFO ] 2017-04-26 08:41:03 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=54    title=Paul      
+rentUnit=
+[id=53    title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[INFO ] 2017-04-26 08:41:03 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=54    title=Paul      
+rentUnit=
+[id=53    title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
 [id=1     title=coat       price=301        category=large     ]
 [id=1     title=coat       price=301        category=large     ]
 [id=1     title=coat       price=301        category=large     ]

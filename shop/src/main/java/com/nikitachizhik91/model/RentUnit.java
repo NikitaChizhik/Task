@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class RentUnit {
 
 	private SportEquipment[] units;
-	private final static int INITIAL_CAPACITY = 10;
+	private final static int INITIAL_CAPACITY = 5;
 
 	public RentUnit() {
 		units = new SportEquipment[INITIAL_CAPACITY];
@@ -17,19 +17,21 @@ public class RentUnit {
 
 	public void addUnit(SportEquipment unit) {
 
-		for (int i = 0; i < units.length; i++) {
-
-			if (units[i] == null) {
-				units[i] = unit;
-				return;
-			}
+		for (int i = 0; i <= units.length; i++) {
 
 			if (i == units.length) {
 				SportEquipment[] increasedUnits = new SportEquipment[i + INITIAL_CAPACITY / 2];
 				System.arraycopy(units, 0, increasedUnits, 0, units.length);
 				units = increasedUnits;
 				units[i] = unit;
+				return;
 			}
+
+			if (units[i] == null) {
+				units[i] = unit;
+				return;
+			}
+
 		}
 	}
 

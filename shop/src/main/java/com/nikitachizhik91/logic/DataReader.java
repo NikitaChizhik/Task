@@ -41,7 +41,7 @@ public final class DataReader {
 				String title = items[1];
 				int price = Integer.parseInt(items[2]);
 
-				SportEquipment sportEquipment = new SportEquipment(++id, title, price, new Category(id++, category));
+				SportEquipment sportEquipment = new SportEquipment(id++, title, price, new Category(id++, category));
 				// counts items is it ok to put it here?
 				if (goods.containsKey(sportEquipment)) {
 					goods.put(sportEquipment, goods.get(sportEquipment) + 1);

@@ -1,46 +1,1899 @@
-[TRACE] 2017-04-25 21:21:58 Shop - Started rentSportEquipment() method with parameters : customerId=2 equipmentId=25 quantity=1
-[TRACE] 2017-04-25 21:21:58 Shop - Checking for allowed quantity.Allowed is =3
-[TRACE] 2017-04-25 21:21:58 Shop - Quantity is allowed
-[TRACE] 2017-04-25 21:21:58 Shop - Finding sportEquipment by id=25
-[TRACE] 2017-04-25 21:21:58 Shop - Checking for in Stock=1 asked quantity=1
-[TRACE] 2017-04-25 21:21:58 Shop - Finding sportEquipment by id=25
-[TRACE] 2017-04-25 21:21:58 Shop - Found sportEquipment=[id=25    title=hat        price=92         category=little    ]
-[TRACE] 2017-04-25 21:21:58 Shop - Finding Customer by id=2
-[TRACE] 2017-04-25 21:21:58 Shop - Found Customer=Customer : id=2     title=Peter     
+[TRACE] 2017-04-26 07:18:18 Shop - Started rentSportEquipment() method with parameters : customerId=2 equipmentId=25 quantity=1
+[TRACE] 2017-04-26 07:18:18 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:18:18 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:18:18 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:18:18 Shop - Checking for in Stock=1 asked quantity=1
+[TRACE] 2017-04-26 07:18:18 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:18:18 Shop - Found sportEquipment=[id=25    title=hat        price=92         category=little    ]
+[TRACE] 2017-04-26 07:18:18 Shop - Finding Customer by id=2
+[TRACE] 2017-04-26 07:18:18 Shop - Found Customer=Customer : id=2     title=Peter     
 rentUnit=
 [id=1     title=sweater    price=1000       category=medium    ]
 
-[TRACE] 2017-04-25 21:21:58 Shop - Finding customer's RentUnit
-[TRACE] 2017-04-25 21:21:58 Shop - Found customer's RentUnit=[id=1     title=sweater    price=1000       category=medium    ]
+[TRACE] 2017-04-26 07:18:18 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:18:18 Shop - Found customer's RentUnit=[id=1     title=sweater    price=1000       category=medium    ]
 
-[TRACE] 2017-04-25 21:21:58 Shop - Adding sportEquipment to customer's rentUnits.
-[INFO ] 2017-04-25 21:21:58 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+[TRACE] 2017-04-26 07:18:18 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:18:18 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
 rentUnit=
 [id=1     title=sweater    price=1000       category=medium    ]
 [id=25    title=hat        price=92         category=little    ]
 
-[TRACE] 2017-04-25 21:21:58 Shop - Finished rentSportEquipment() method
-[TRACE] 2017-04-25 21:21:58 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
-[TRACE] 2017-04-25 21:21:58 Shop - Checking for allowed quantity.Allowed is =3
-[TRACE] 2017-04-25 21:21:58 Shop - Quantity is allowed
-[TRACE] 2017-04-25 21:21:58 Shop - Finding sportEquipment by id=1
-[TRACE] 2017-04-25 21:21:58 Shop - Checking for in Stock=7 asked quantity=3
-[TRACE] 2017-04-25 21:21:58 Shop - Finding sportEquipment by id=1
-[TRACE] 2017-04-25 21:21:58 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
-[TRACE] 2017-04-25 21:21:58 Shop - Finding Customer by id=4
-[TRACE] 2017-04-25 21:21:58 Shop - Found Customer=Customer : id=4     title=Paul      
+[TRACE] 2017-04-26 07:18:18 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:18:18 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 07:18:18 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:18:18 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:18:18 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:18:18 Shop - Checking for in Stock=7 asked quantity=3
+[TRACE] 2017-04-26 07:18:18 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:18:18 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:18:18 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:18:18 Shop - Found Customer=Customer : id=4     title=Paul      
 rentUnit=
 [id=3     title=jacket     price=1000       category=little    ]
 
-[TRACE] 2017-04-25 21:21:58 Shop - Finding customer's RentUnit
-[TRACE] 2017-04-25 21:21:58 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+[TRACE] 2017-04-26 07:18:18 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:18:18 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
 
-[TRACE] 2017-04-25 21:21:58 Shop - Adding sportEquipment to customer's rentUnits.
-[INFO ] 2017-04-25 21:21:58 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+[TRACE] 2017-04-26 07:18:18 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:18:18 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
 rentUnit=
 [id=3     title=jacket     price=1000       category=little    ]
 [id=1     title=coat       price=301        category=large     ]
 [id=1     title=coat       price=301        category=large     ]
 [id=1     title=coat       price=301        category=large     ]
 
-[TRACE] 2017-04-25 21:21:58 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:18:18 Shop - Finished rentSportEquipment() method
+[ERROR] 2017-04-26 07:21:46 JsonDataReader - Cannot read data from file with path=/shop/src/main/resources/JsonGoods
+java.io.FileNotFoundException: /shop/src/main/resources/JsonGoods (Нет такого файла или каталога)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_91]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_91]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_91]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_91]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_91]
+	at com.nikitachizhik91.logic.JsonDataReader.fromGoods(JsonDataReader.java:37) [classes/:?]
+	at com.nikitachizhik91.logic.Shop.<init>(Shop.java:29) [classes/:?]
+	at com.nikitachizhik91.logic.Main.main(Main.java:18) [classes/:?]
+[ERROR] 2017-04-26 07:22:13 JsonDataReader - Cannot read data from file with path=JsonGoods
+java.io.FileNotFoundException: JsonGoods (Нет такого файла или каталога)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_91]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_91]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_91]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_91]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_91]
+	at com.nikitachizhik91.logic.JsonDataReader.fromGoods(JsonDataReader.java:37) [classes/:?]
+	at com.nikitachizhik91.logic.Shop.<init>(Shop.java:29) [classes/:?]
+	at com.nikitachizhik91.logic.Main.main(Main.java:18) [classes/:?]
+[ERROR] 2017-04-26 07:22:27 JsonDataReader - Cannot read data from file with path=JsonGoods.txt
+java.io.FileNotFoundException: JsonGoods.txt (Нет такого файла или каталога)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_91]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_91]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_91]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_91]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_91]
+	at com.nikitachizhik91.logic.JsonDataReader.fromGoods(JsonDataReader.java:37) [classes/:?]
+	at com.nikitachizhik91.logic.Shop.<init>(Shop.java:29) [classes/:?]
+	at com.nikitachizhik91.logic.Main.main(Main.java:18) [classes/:?]
+[ERROR] 2017-04-26 07:22:54 JsonDataReader - Cannot read data from file with path=/JsonGoods.txt
+java.io.FileNotFoundException: /JsonGoods.txt (Нет такого файла или каталога)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_91]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_91]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_91]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_91]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_91]
+	at com.nikitachizhik91.logic.JsonDataReader.fromGoods(JsonDataReader.java:37) [classes/:?]
+	at com.nikitachizhik91.logic.Shop.<init>(Shop.java:29) [classes/:?]
+	at com.nikitachizhik91.logic.Main.main(Main.java:18) [classes/:?]
+[ERROR] 2017-04-26 07:23:00 JsonDataReader - Cannot read data from file with path=/JsonGoods.txt
+java.io.FileNotFoundException: /JsonGoods.txt (Нет такого файла или каталога)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_91]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_91]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_91]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_91]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_91]
+	at com.nikitachizhik91.logic.JsonDataReader.fromGoods(JsonDataReader.java:37) [classes/:?]
+	at com.nikitachizhik91.logic.Shop.<init>(Shop.java:29) [classes/:?]
+	at com.nikitachizhik91.logic.Main.main(Main.java:18) [classes/:?]
+[TRACE] 2017-04-26 07:23:43 Shop - Started rentSportEquipment() method with parameters : customerId=2 equipmentId=25 quantity=1
+[TRACE] 2017-04-26 07:23:43 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:23:43 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:23:43 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:23:43 Shop - Checking for in Stock=1 asked quantity=1
+[TRACE] 2017-04-26 07:23:43 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:23:43 Shop - Found sportEquipment=[id=25    title=hat        price=92         category=little    ]
+[TRACE] 2017-04-26 07:23:43 Shop - Finding Customer by id=2
+[TRACE] 2017-04-26 07:23:43 Shop - Found Customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:23:43 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:23:43 Shop - Found customer's RentUnit=[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:23:43 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:23:43 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[TRACE] 2017-04-26 07:23:43 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:23:43 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 07:23:43 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:23:43 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:23:43 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:23:43 Shop - Checking for in Stock=7 asked quantity=3
+[TRACE] 2017-04-26 07:23:43 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:23:43 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:23:43 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:23:43 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:23:43 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:23:43 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:23:43 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:23:43 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:23:43 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:29:39 Shop - Started rentSportEquipment() method with parameters : customerId=2 equipmentId=25 quantity=1
+[TRACE] 2017-04-26 07:29:39 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:29:39 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:29:39 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:29:39 Shop - Checking for in Stock=1 asked quantity=1
+[TRACE] 2017-04-26 07:29:39 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:29:39 Shop - Found sportEquipment=[id=25    title=hat        price=92         category=little    ]
+[TRACE] 2017-04-26 07:29:39 Shop - Finding Customer by id=2
+[TRACE] 2017-04-26 07:29:39 Shop - Found Customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:29:39 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:29:39 Shop - Found customer's RentUnit=[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:29:39 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:29:40 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[TRACE] 2017-04-26 07:29:40 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:29:40 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 07:29:40 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:29:40 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:29:40 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:29:40 Shop - Checking for in Stock=7 asked quantity=3
+[TRACE] 2017-04-26 07:29:40 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:29:40 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:29:40 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:29:40 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:29:40 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:29:40 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:29:40 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:29:42 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:29:42 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:30:10 Shop - Started rentSportEquipment() method with parameters : customerId=2 equipmentId=25 quantity=1
+[TRACE] 2017-04-26 07:30:10 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:30:10 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:30:10 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:30:10 Shop - Checking for in Stock=1 asked quantity=1
+[TRACE] 2017-04-26 07:30:10 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:30:10 Shop - Found sportEquipment=[id=25    title=hat        price=92         category=little    ]
+[TRACE] 2017-04-26 07:30:10 Shop - Finding Customer by id=2
+[TRACE] 2017-04-26 07:30:10 Shop - Found Customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:30:10 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:30:10 Shop - Found customer's RentUnit=[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:30:10 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:30:10 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[TRACE] 2017-04-26 07:30:10 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:30:10 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 07:30:10 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:30:10 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:30:10 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:30:10 Shop - Checking for in Stock=7 asked quantity=3
+[TRACE] 2017-04-26 07:30:10 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:30:10 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:30:10 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:30:10 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:30:10 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:30:10 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:30:10 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:30:10 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:30:10 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:31:39 Shop - Started rentSportEquipment() method with parameters : customerId=2 equipmentId=25 quantity=1
+[TRACE] 2017-04-26 07:31:39 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:31:39 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:31:39 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:31:39 Shop - Checking for in Stock=1 asked quantity=1
+[TRACE] 2017-04-26 07:31:39 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:31:39 Shop - Found sportEquipment=[id=25    title=hat        price=92         category=little    ]
+[TRACE] 2017-04-26 07:31:39 Shop - Finding Customer by id=2
+[TRACE] 2017-04-26 07:31:39 Shop - Found Customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:31:39 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:31:39 Shop - Found customer's RentUnit=[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:31:39 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:31:39 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[TRACE] 2017-04-26 07:31:39 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:31:39 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=4
+[TRACE] 2017-04-26 07:31:39 Shop - Checking for allowed quantity.Allowed is =3
+[INFO ] 2017-04-26 07:31:39 Shop - You cannot take more than 3 items.
+[TRACE] 2017-04-26 07:32:13 Shop - Started rentSportEquipment() method with parameters : customerId=2 equipmentId=25 quantity=1
+[TRACE] 2017-04-26 07:32:13 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:32:13 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:32:13 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:32:13 Shop - Checking for in Stock=1 asked quantity=1
+[TRACE] 2017-04-26 07:32:13 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:32:13 Shop - Found sportEquipment=[id=25    title=hat        price=92         category=little    ]
+[TRACE] 2017-04-26 07:32:13 Shop - Finding Customer by id=2
+[TRACE] 2017-04-26 07:32:13 Shop - Found Customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:32:13 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:32:13 Shop - Found customer's RentUnit=[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:32:13 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:32:13 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[TRACE] 2017-04-26 07:32:13 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:32:13 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 07:32:13 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:32:13 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:32:13 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:32:13 Shop - Checking for in Stock=7 asked quantity=3
+[TRACE] 2017-04-26 07:32:13 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:32:13 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:32:13 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:32:13 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:32:13 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:32:13 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:32:13 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:32:13 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:32:13 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:33:45 Shop - Started rentSportEquipment() method with parameters : customerId=2 equipmentId=25 quantity=1
+[TRACE] 2017-04-26 07:33:45 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:33:45 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:33:45 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:33:45 Shop - Checking for in Stock=1 asked quantity=1
+[TRACE] 2017-04-26 07:33:45 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:33:45 Shop - Found sportEquipment=[id=25    title=hat        price=92         category=little    ]
+[TRACE] 2017-04-26 07:33:45 Shop - Finding Customer by id=2
+[TRACE] 2017-04-26 07:33:45 Shop - Found Customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:33:45 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:33:45 Shop - Found customer's RentUnit=[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:33:45 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:33:45 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[TRACE] 2017-04-26 07:33:45 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:33:45 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 07:33:45 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:33:45 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:33:45 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:33:45 Shop - Checking for in Stock=7 asked quantity=3
+[TRACE] 2017-04-26 07:33:45 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:33:45 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:33:45 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:33:45 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:33:45 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:33:45 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:33:45 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:33:45 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:33:45 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:33:45 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=2
+[TRACE] 2017-04-26 07:33:45 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:33:45 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:33:45 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:33:45 Shop - Checking for in Stock=4 asked quantity=2
+[TRACE] 2017-04-26 07:33:45 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:33:45 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:33:45 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:33:45 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:33:45 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:33:45 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:33:45 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:33:45 Shop - Rented 2 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:33:45 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:36:06 Shop - Started rentSportEquipment() method with parameters : customerId=2 equipmentId=25 quantity=1
+[TRACE] 2017-04-26 07:36:06 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:36:06 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:36:06 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:36:06 Shop - Checking for in Stock=1 asked quantity=1
+[TRACE] 2017-04-26 07:36:06 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:36:06 Shop - Found sportEquipment=[id=25    title=hat        price=92         category=little    ]
+[TRACE] 2017-04-26 07:36:06 Shop - Finding Customer by id=2
+[TRACE] 2017-04-26 07:36:06 Shop - Found Customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:36:06 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:36:06 Shop - Found customer's RentUnit=[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:36:06 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:36:06 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[TRACE] 2017-04-26 07:36:06 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:36:06 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 07:36:06 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:36:06 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:36:06 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:36:06 Shop - Checking for in Stock=7 asked quantity=3
+[TRACE] 2017-04-26 07:36:06 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:36:06 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:36:06 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:36:06 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:36:06 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:36:06 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:36:06 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:36:06 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:36:06 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:36:09 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=2
+[TRACE] 2017-04-26 07:36:09 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:36:09 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:36:09 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:36:09 Shop - Checking for in Stock=4 asked quantity=2
+[TRACE] 2017-04-26 07:36:09 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:36:09 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:36:09 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:36:09 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:36:09 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:36:09 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:36:09 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:36:09 Shop - Rented 2 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:36:09 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:36:39 Shop - Started rentSportEquipment() method with parameters : customerId=2 equipmentId=25 quantity=1
+[TRACE] 2017-04-26 07:36:39 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:36:39 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:36:39 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:36:39 Shop - Checking for in Stock=1 asked quantity=1
+[TRACE] 2017-04-26 07:36:39 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:36:39 Shop - Found sportEquipment=[id=25    title=hat        price=92         category=little    ]
+[TRACE] 2017-04-26 07:36:39 Shop - Finding Customer by id=2
+[TRACE] 2017-04-26 07:36:39 Shop - Found Customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:36:39 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:36:39 Shop - Found customer's RentUnit=[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:36:39 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:36:39 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[TRACE] 2017-04-26 07:36:39 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:36:39 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 07:36:39 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:36:39 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:36:39 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:36:39 Shop - Checking for in Stock=7 asked quantity=3
+[TRACE] 2017-04-26 07:36:39 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:36:39 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:36:39 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:36:39 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:36:39 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:36:39 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:36:39 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:36:39 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:36:39 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:36:48 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=2
+[TRACE] 2017-04-26 07:36:48 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:36:48 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:36:48 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:36:48 Shop - Checking for in Stock=4 asked quantity=2
+[TRACE] 2017-04-26 07:36:48 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:36:48 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:36:48 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:36:48 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:36:48 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:36:48 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:36:48 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:36:48 Shop - Rented 2 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:36:48 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:38:14 Shop - Started rentSportEquipment() method with parameters : customerId=2 equipmentId=25 quantity=1
+[TRACE] 2017-04-26 07:38:14 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:38:14 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:38:14 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:38:14 Shop - Checking for in Stock=1 asked quantity=1
+[TRACE] 2017-04-26 07:38:14 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:38:14 Shop - Found sportEquipment=[id=25    title=hat        price=92         category=little    ]
+[TRACE] 2017-04-26 07:38:14 Shop - Finding Customer by id=2
+[TRACE] 2017-04-26 07:38:14 Shop - Found Customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:38:14 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:38:14 Shop - Found customer's RentUnit=[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:38:14 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:38:14 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[TRACE] 2017-04-26 07:38:14 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:38:14 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 07:38:14 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:38:14 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:38:14 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:38:14 Shop - Checking for in Stock=7 asked quantity=3
+[TRACE] 2017-04-26 07:38:14 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:38:14 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:38:14 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:38:14 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:38:14 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:38:14 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:38:14 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:38:14 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:38:14 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:40:46 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=2
+[TRACE] 2017-04-26 07:40:46 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:40:46 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:40:46 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:40:46 Shop - Checking for in Stock=4 asked quantity=2
+[TRACE] 2017-04-26 07:40:46 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:40:46 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:40:46 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:40:46 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:40:46 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:40:46 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:40:46 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:40:46 Shop - Rented 2 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:40:46 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:42:38 Shop - Started rentSportEquipment() method with parameters : customerId=2 equipmentId=25 quantity=1
+[TRACE] 2017-04-26 07:42:38 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:42:38 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:42:38 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:42:38 Shop - Checking for in Stock=1 asked quantity=1
+[TRACE] 2017-04-26 07:42:38 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:42:38 Shop - Found sportEquipment=[id=25    title=hat        price=92         category=little    ]
+[TRACE] 2017-04-26 07:42:38 Shop - Finding Customer by id=2
+[TRACE] 2017-04-26 07:42:38 Shop - Found Customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:42:38 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:42:38 Shop - Found customer's RentUnit=[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:42:38 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:42:38 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[TRACE] 2017-04-26 07:42:38 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:42:38 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 07:42:38 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:42:38 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:42:38 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:42:38 Shop - Checking for in Stock=7 asked quantity=3
+[TRACE] 2017-04-26 07:42:38 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:42:38 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:42:38 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:42:38 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:42:38 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:42:38 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:42:38 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:42:38 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:42:38 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:42:46 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=2
+[TRACE] 2017-04-26 07:42:47 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:42:47 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:42:47 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:42:51 Shop - Checking for in Stock=4 asked quantity=2
+[TRACE] 2017-04-26 07:42:51 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:42:53 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:42:54 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:42:54 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:42:55 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:42:55 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:42:56 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:47:05 Shop - Rented 2 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:47:05 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:47:29 Shop - Started rentSportEquipment() method with parameters : customerId=2 equipmentId=25 quantity=1
+[TRACE] 2017-04-26 07:47:29 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:47:29 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:47:29 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:47:29 Shop - Checking for in Stock=1 asked quantity=1
+[TRACE] 2017-04-26 07:47:29 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:47:29 Shop - Found sportEquipment=[id=25    title=hat        price=92         category=little    ]
+[TRACE] 2017-04-26 07:47:29 Shop - Finding Customer by id=2
+[TRACE] 2017-04-26 07:47:29 Shop - Found Customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:47:29 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:47:29 Shop - Found customer's RentUnit=[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:47:29 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:47:29 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[TRACE] 2017-04-26 07:47:29 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:47:29 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 07:47:29 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:47:29 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:47:29 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:47:29 Shop - Checking for in Stock=7 asked quantity=3
+[TRACE] 2017-04-26 07:47:29 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:47:29 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:47:29 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:47:29 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:47:29 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:47:29 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:47:29 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:47:29 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:47:29 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:47:29 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=2
+[TRACE] 2017-04-26 07:47:29 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:47:29 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:47:29 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:47:29 Shop - Checking for in Stock=4 asked quantity=2
+[TRACE] 2017-04-26 07:47:29 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:47:29 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:47:29 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:47:29 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:47:29 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:47:29 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:47:29 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:47:29 Shop - Rented 2 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:47:29 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:48:28 Shop - Started rentSportEquipment() method with parameters : customerId=2 equipmentId=25 quantity=1
+[TRACE] 2017-04-26 07:48:28 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:48:28 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:48:28 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:48:28 Shop - Checking for in Stock=1 asked quantity=1
+[TRACE] 2017-04-26 07:48:28 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:48:28 Shop - Found sportEquipment=[id=25    title=hat        price=92         category=little    ]
+[TRACE] 2017-04-26 07:48:28 Shop - Finding Customer by id=2
+[TRACE] 2017-04-26 07:48:28 Shop - Found Customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:48:28 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:48:28 Shop - Found customer's RentUnit=[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:48:28 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:48:28 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[TRACE] 2017-04-26 07:48:28 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:48:28 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=4
+[TRACE] 2017-04-26 07:48:28 Shop - Checking for allowed quantity.Allowed is =3
+[INFO ] 2017-04-26 07:48:28 Shop - You cannot take more than 3 items.
+[TRACE] 2017-04-26 07:48:28 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=2
+[TRACE] 2017-04-26 07:48:28 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:48:28 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:48:28 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:48:28 Shop - Checking for in Stock=7 asked quantity=2
+[TRACE] 2017-04-26 07:48:28 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:48:28 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:48:28 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:48:28 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:48:28 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:48:28 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:48:28 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:48:28 Shop - Rented 2 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:48:28 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:48:47 Shop - Started rentSportEquipment() method with parameters : customerId=2 equipmentId=25 quantity=1
+[TRACE] 2017-04-26 07:48:47 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:48:47 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:48:47 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:48:47 Shop - Checking for in Stock=1 asked quantity=1
+[TRACE] 2017-04-26 07:48:47 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:48:47 Shop - Found sportEquipment=[id=25    title=hat        price=92         category=little    ]
+[TRACE] 2017-04-26 07:48:47 Shop - Finding Customer by id=2
+[TRACE] 2017-04-26 07:48:47 Shop - Found Customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:48:47 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:48:47 Shop - Found customer's RentUnit=[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:48:47 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:48:47 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[TRACE] 2017-04-26 07:48:47 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:48:47 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 07:48:47 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:48:47 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:48:47 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:48:47 Shop - Checking for in Stock=7 asked quantity=3
+[TRACE] 2017-04-26 07:48:47 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:48:47 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:48:47 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:48:47 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:48:47 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:48:47 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:48:47 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:48:47 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:48:47 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:48:47 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 07:48:47 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:48:47 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:48:47 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:48:47 Shop - Checking for in Stock=4 asked quantity=3
+[TRACE] 2017-04-26 07:48:47 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:48:47 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:48:47 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:48:47 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:48:47 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:48:47 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:48:47 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:48:47 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:48:47 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:48:55 Shop - Started rentSportEquipment() method with parameters : customerId=2 equipmentId=25 quantity=1
+[TRACE] 2017-04-26 07:48:55 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:48:55 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:48:55 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:48:55 Shop - Checking for in Stock=1 asked quantity=1
+[TRACE] 2017-04-26 07:48:55 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:48:55 Shop - Found sportEquipment=[id=25    title=hat        price=92         category=little    ]
+[TRACE] 2017-04-26 07:48:55 Shop - Finding Customer by id=2
+[TRACE] 2017-04-26 07:48:55 Shop - Found Customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:48:55 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:48:55 Shop - Found customer's RentUnit=[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:48:55 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:48:55 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[TRACE] 2017-04-26 07:48:55 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:48:55 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 07:48:55 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:48:55 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:48:55 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:48:55 Shop - Checking for in Stock=7 asked quantity=3
+[TRACE] 2017-04-26 07:48:55 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:48:55 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:48:55 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:48:55 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:48:55 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:48:55 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:48:55 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:48:55 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:48:55 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:48:55 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 07:48:55 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:48:55 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:48:55 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:48:55 Shop - Checking for in Stock=4 asked quantity=3
+[TRACE] 2017-04-26 07:48:55 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:48:55 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:48:55 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:48:55 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:48:55 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:48:55 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:48:55 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:48:55 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:48:55 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:49:53 Shop - Started rentSportEquipment() method with parameters : customerId=2 equipmentId=25 quantity=1
+[TRACE] 2017-04-26 07:49:53 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:49:53 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:49:53 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:49:53 Shop - Checking for in Stock=1 asked quantity=1
+[TRACE] 2017-04-26 07:49:53 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:49:53 Shop - Found sportEquipment=[id=25    title=hat        price=92         category=little    ]
+[TRACE] 2017-04-26 07:49:53 Shop - Finding Customer by id=2
+[TRACE] 2017-04-26 07:49:53 Shop - Found Customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:49:53 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:49:53 Shop - Found customer's RentUnit=[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:49:53 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:49:53 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[TRACE] 2017-04-26 07:49:53 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:49:53 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 07:49:53 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:49:53 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:49:53 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:49:53 Shop - Checking for in Stock=7 asked quantity=3
+[TRACE] 2017-04-26 07:49:53 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:49:53 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:49:53 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:49:53 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:49:53 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:49:53 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:49:53 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:49:53 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:49:53 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:49:53 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 07:49:53 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:49:53 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:49:53 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:49:53 Shop - Checking for in Stock=4 asked quantity=3
+[TRACE] 2017-04-26 07:49:53 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:49:53 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:49:53 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:49:53 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:49:53 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:49:53 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:49:53 Shop - Adding sportEquipment to customer's rentUnits.
+[TRACE] 2017-04-26 07:50:46 Shop - Started rentSportEquipment() method with parameters : customerId=2 equipmentId=25 quantity=1
+[TRACE] 2017-04-26 07:50:46 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:50:46 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:50:46 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:50:46 Shop - Checking for in Stock=1 asked quantity=1
+[TRACE] 2017-04-26 07:50:46 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:50:46 Shop - Found sportEquipment=[id=25    title=hat        price=92         category=little    ]
+[TRACE] 2017-04-26 07:50:46 Shop - Finding Customer by id=2
+[TRACE] 2017-04-26 07:50:46 Shop - Found Customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:50:46 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:50:46 Shop - Found customer's RentUnit=[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:50:46 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:50:46 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[TRACE] 2017-04-26 07:50:46 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:50:46 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 07:50:46 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:50:46 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:50:46 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:50:46 Shop - Checking for in Stock=7 asked quantity=3
+[TRACE] 2017-04-26 07:50:46 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:50:46 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:50:46 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:50:46 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:50:46 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:50:46 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:50:46 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:50:46 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:50:46 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:50:46 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 07:50:46 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:50:46 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:50:46 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:50:46 Shop - Checking for in Stock=4 asked quantity=3
+[TRACE] 2017-04-26 07:50:46 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:50:46 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:50:46 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:50:46 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:50:46 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:50:46 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:50:46 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:50:46 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:50:46 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:53:20 Shop - Started rentSportEquipment() method with parameters : customerId=2 equipmentId=25 quantity=1
+[TRACE] 2017-04-26 07:53:20 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:53:20 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:53:20 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:53:20 Shop - Checking for in Stock=1 asked quantity=1
+[TRACE] 2017-04-26 07:53:20 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:53:20 Shop - Found sportEquipment=[id=25    title=hat        price=92         category=little    ]
+[TRACE] 2017-04-26 07:53:20 Shop - Finding Customer by id=2
+[TRACE] 2017-04-26 07:53:20 Shop - Found Customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:53:20 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:53:20 Shop - Found customer's RentUnit=[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:53:20 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:53:20 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[TRACE] 2017-04-26 07:53:20 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:53:20 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 07:53:20 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:53:20 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:53:20 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:53:20 Shop - Checking for in Stock=7 asked quantity=3
+[TRACE] 2017-04-26 07:53:20 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:53:20 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:53:20 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:53:20 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:53:20 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:53:20 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:53:20 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:53:20 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:53:20 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:53:20 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 07:53:20 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:53:20 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:53:20 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:53:20 Shop - Checking for in Stock=4 asked quantity=3
+[TRACE] 2017-04-26 07:53:20 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:53:20 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:53:20 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:53:20 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:53:20 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:53:20 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:53:20 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:53:20 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:53:20 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:56:04 Shop - Started rentSportEquipment() method with parameters : customerId=2 equipmentId=25 quantity=1
+[TRACE] 2017-04-26 07:56:04 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:56:04 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:56:04 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:56:04 Shop - Checking for in Stock=1 asked quantity=1
+[TRACE] 2017-04-26 07:56:04 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:56:04 Shop - Found sportEquipment=[id=25    title=hat        price=92         category=little    ]
+[TRACE] 2017-04-26 07:56:04 Shop - Finding Customer by id=2
+[TRACE] 2017-04-26 07:56:04 Shop - Found Customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:56:04 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:56:04 Shop - Found customer's RentUnit=[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:56:04 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:56:04 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[TRACE] 2017-04-26 07:56:04 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:56:04 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 07:56:04 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:56:04 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:56:04 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:56:04 Shop - Checking for in Stock=7 asked quantity=3
+[TRACE] 2017-04-26 07:56:04 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:56:04 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:56:04 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:56:04 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:56:04 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:56:04 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:56:04 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:56:04 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:56:04 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:56:04 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 07:56:04 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:56:04 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:56:04 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:56:04 Shop - Checking for in Stock=4 asked quantity=3
+[TRACE] 2017-04-26 07:56:04 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:56:04 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:56:04 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:56:04 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:56:04 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:56:04 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:56:04 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:56:04 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:56:04 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:57:36 Shop - Started rentSportEquipment() method with parameters : customerId=2 equipmentId=25 quantity=1
+[TRACE] 2017-04-26 07:57:36 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:57:36 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:57:36 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:57:36 Shop - Checking for in Stock=1 asked quantity=1
+[TRACE] 2017-04-26 07:57:36 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 07:57:36 Shop - Found sportEquipment=[id=25    title=hat        price=92         category=little    ]
+[TRACE] 2017-04-26 07:57:36 Shop - Finding Customer by id=2
+[TRACE] 2017-04-26 07:57:36 Shop - Found Customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:57:36 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:57:36 Shop - Found customer's RentUnit=[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 07:57:36 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:57:36 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[TRACE] 2017-04-26 07:57:36 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:57:36 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 07:57:36 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:57:36 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:57:36 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:57:36 Shop - Checking for in Stock=7 asked quantity=3
+[TRACE] 2017-04-26 07:57:36 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:57:36 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:57:36 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:57:36 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:57:36 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 07:57:36 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 07:57:36 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 07:57:36 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:57:36 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 07:58:22 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 07:58:22 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 07:58:28 Shop - Quantity is allowed
+[TRACE] 2017-04-26 07:58:29 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:58:33 Shop - Checking for in Stock=4 asked quantity=3
+[TRACE] 2017-04-26 07:59:18 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 07:59:33 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 07:59:44 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 07:59:53 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 07:59:54 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 08:01:07 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 08:01:10 Shop - Adding sportEquipment to customer's rentUnits.
+[TRACE] 2017-04-26 08:04:48 Shop - Started rentSportEquipment() method with parameters : customerId=2 equipmentId=25 quantity=1
+[TRACE] 2017-04-26 08:04:48 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 08:04:48 Shop - Quantity is allowed
+[TRACE] 2017-04-26 08:04:48 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 08:04:48 Shop - Checking for in Stock=1 asked quantity=1
+[TRACE] 2017-04-26 08:04:48 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 08:04:48 Shop - Found sportEquipment=[id=25    title=hat        price=92         category=little    ]
+[TRACE] 2017-04-26 08:04:48 Shop - Finding Customer by id=2
+[TRACE] 2017-04-26 08:04:48 Shop - Found Customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 08:04:48 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 08:04:48 Shop - Found customer's RentUnit=[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 08:04:48 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 08:04:48 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[TRACE] 2017-04-26 08:04:48 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 08:04:48 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 08:04:48 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 08:04:48 Shop - Quantity is allowed
+[TRACE] 2017-04-26 08:04:48 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 08:04:48 Shop - Checking for in Stock=7 asked quantity=3
+[TRACE] 2017-04-26 08:04:48 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 08:04:48 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 08:04:48 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 08:04:48 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 08:04:48 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 08:04:48 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 08:04:48 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 08:04:48 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 08:04:48 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 08:04:48 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 08:04:48 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 08:04:48 Shop - Quantity is allowed
+[TRACE] 2017-04-26 08:04:48 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 08:04:48 Shop - Checking for in Stock=4 asked quantity=3
+[TRACE] 2017-04-26 08:04:48 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 08:04:48 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 08:04:48 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 08:04:48 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 08:04:48 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 08:04:48 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 08:04:48 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 08:04:48 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 08:04:48 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 08:05:05 Shop - Started rentSportEquipment() method with parameters : customerId=2 equipmentId=25 quantity=1
+[TRACE] 2017-04-26 08:05:05 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 08:05:05 Shop - Quantity is allowed
+[TRACE] 2017-04-26 08:05:05 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 08:05:05 Shop - Checking for in Stock=1 asked quantity=1
+[TRACE] 2017-04-26 08:05:05 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 08:05:05 Shop - Found sportEquipment=[id=25    title=hat        price=92         category=little    ]
+[TRACE] 2017-04-26 08:05:05 Shop - Finding Customer by id=2
+[TRACE] 2017-04-26 08:05:05 Shop - Found Customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 08:05:05 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 08:05:05 Shop - Found customer's RentUnit=[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 08:05:05 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 08:05:05 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[TRACE] 2017-04-26 08:05:05 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 08:05:05 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 08:05:05 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 08:05:05 Shop - Quantity is allowed
+[TRACE] 2017-04-26 08:05:05 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 08:05:05 Shop - Checking for in Stock=7 asked quantity=3
+[TRACE] 2017-04-26 08:05:05 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 08:05:05 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 08:05:05 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 08:05:05 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 08:05:05 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 08:05:05 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 08:05:05 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 08:05:05 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 08:05:05 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 08:05:05 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 08:05:05 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 08:05:05 Shop - Quantity is allowed
+[TRACE] 2017-04-26 08:05:05 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 08:05:05 Shop - Checking for in Stock=4 asked quantity=3
+[TRACE] 2017-04-26 08:05:05 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 08:05:05 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 08:05:05 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 08:05:05 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 08:05:05 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 08:05:05 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 08:05:05 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 08:05:05 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 08:05:05 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 08:29:14 Shop - Started rentSportEquipment() method with parameters : customerId=2 equipmentId=25 quantity=1
+[TRACE] 2017-04-26 08:29:14 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 08:29:14 Shop - Quantity is allowed
+[TRACE] 2017-04-26 08:29:14 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 08:29:14 Shop - Checking for in Stock=1 asked quantity=1
+[TRACE] 2017-04-26 08:29:14 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 08:29:14 Shop - Found sportEquipment=[id=25    title=hat        price=92         category=little    ]
+[TRACE] 2017-04-26 08:29:14 Shop - Finding Customer by id=2
+[TRACE] 2017-04-26 08:29:14 Shop - Found Customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 08:29:14 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 08:29:14 Shop - Found customer's RentUnit=[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 08:29:14 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 08:29:14 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[TRACE] 2017-04-26 08:29:14 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 08:29:14 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 08:29:14 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 08:29:14 Shop - Quantity is allowed
+[TRACE] 2017-04-26 08:29:14 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 08:29:14 Shop - Checking for in Stock=7 asked quantity=3
+[TRACE] 2017-04-26 08:29:14 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 08:29:14 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 08:29:14 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 08:29:14 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 08:29:14 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 08:29:14 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 08:29:14 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 08:29:14 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 08:29:14 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 08:29:14 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 08:29:14 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 08:29:14 Shop - Quantity is allowed
+[TRACE] 2017-04-26 08:29:14 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 08:29:14 Shop - Checking for in Stock=4 asked quantity=3
+[TRACE] 2017-04-26 08:29:14 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 08:29:14 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 08:29:14 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 08:29:14 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 08:29:14 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 08:29:14 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 08:29:14 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 08:29:14 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 08:29:14 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 08:32:26 Shop - Started rentSportEquipment() method with parameters : customerId=2 equipmentId=25 quantity=1
+[TRACE] 2017-04-26 08:32:26 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 08:32:26 Shop - Quantity is allowed
+[TRACE] 2017-04-26 08:32:26 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 08:32:26 Shop - Checking for in Stock=1 asked quantity=1
+[TRACE] 2017-04-26 08:32:26 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 08:32:26 Shop - Found sportEquipment=[id=25    title=hat        price=92         category=little    ]
+[TRACE] 2017-04-26 08:32:26 Shop - Finding Customer by id=2
+[TRACE] 2017-04-26 08:32:26 Shop - Found Customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 08:32:26 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 08:32:26 Shop - Found customer's RentUnit=[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 08:32:26 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 08:32:26 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[TRACE] 2017-04-26 08:32:26 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 08:32:26 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 08:32:26 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 08:32:26 Shop - Quantity is allowed
+[TRACE] 2017-04-26 08:32:26 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 08:32:26 Shop - Checking for in Stock=7 asked quantity=3
+[TRACE] 2017-04-26 08:32:26 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 08:32:26 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 08:32:26 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 08:32:26 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 08:32:26 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 08:32:26 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 08:32:26 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 08:32:26 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 08:32:26 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 08:32:26 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 08:32:26 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 08:32:26 Shop - Quantity is allowed
+[TRACE] 2017-04-26 08:32:26 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 08:32:26 Shop - Checking for in Stock=4 asked quantity=3
+[TRACE] 2017-04-26 08:32:26 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 08:32:26 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 08:32:26 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 08:32:26 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 08:32:26 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 08:32:26 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 08:32:26 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 08:32:26 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 08:32:26 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 08:34:27 Shop - Started rentSportEquipment() method with parameters : customerId=2 equipmentId=25 quantity=1
+[TRACE] 2017-04-26 08:34:27 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 08:34:27 Shop - Quantity is allowed
+[TRACE] 2017-04-26 08:34:27 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 08:34:27 Shop - Checking for in Stock=1 asked quantity=1
+[TRACE] 2017-04-26 08:34:27 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 08:34:27 Shop - Found sportEquipment=[id=25    title=hat        price=92         category=little    ]
+[TRACE] 2017-04-26 08:34:27 Shop - Finding Customer by id=2
+[TRACE] 2017-04-26 08:34:27 Shop - Found Customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 08:34:27 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 08:34:27 Shop - Found customer's RentUnit=[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 08:34:27 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 08:34:27 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[TRACE] 2017-04-26 08:34:27 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 08:34:27 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 08:34:27 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 08:34:27 Shop - Quantity is allowed
+[TRACE] 2017-04-26 08:34:27 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 08:34:27 Shop - Checking for in Stock=7 asked quantity=3
+[TRACE] 2017-04-26 08:34:27 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 08:34:27 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 08:34:27 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 08:34:27 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 08:34:27 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 08:34:27 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 08:34:27 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 08:34:27 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 08:34:27 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 08:34:27 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 08:34:27 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 08:34:27 Shop - Quantity is allowed
+[TRACE] 2017-04-26 08:34:27 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 08:34:27 Shop - Checking for in Stock=4 asked quantity=3
+[TRACE] 2017-04-26 08:34:27 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 08:34:27 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 08:34:27 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 08:34:27 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 08:34:27 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 08:34:27 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 08:34:27 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 08:34:27 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 08:34:27 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 08:38:16 Shop - Started rentSportEquipment() method with parameters : customerId=2 equipmentId=25 quantity=1
+[TRACE] 2017-04-26 08:38:16 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 08:38:16 Shop - Quantity is allowed
+[TRACE] 2017-04-26 08:38:16 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 08:38:16 Shop - Checking for in Stock=1 asked quantity=1
+[TRACE] 2017-04-26 08:38:16 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 08:38:16 Shop - Found sportEquipment=[id=25    title=hat        price=92         category=little    ]
+[TRACE] 2017-04-26 08:38:16 Shop - Finding Customer by id=2
+[TRACE] 2017-04-26 08:38:16 Shop - Found Customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 08:38:16 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 08:38:16 Shop - Found customer's RentUnit=[id=1     title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 08:38:16 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 08:38:16 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=2     title=Peter     
+rentUnit=
+[id=1     title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[TRACE] 2017-04-26 08:38:16 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 08:38:16 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 08:38:16 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 08:38:16 Shop - Quantity is allowed
+[TRACE] 2017-04-26 08:38:16 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 08:38:16 Shop - Checking for in Stock=7 asked quantity=3
+[TRACE] 2017-04-26 08:38:16 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 08:38:16 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 08:38:16 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 08:38:16 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 08:38:16 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 08:38:16 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 08:38:16 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 08:38:16 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 08:38:16 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 08:38:16 Shop - Started rentSportEquipment() method with parameters : customerId=4 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 08:38:16 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 08:38:16 Shop - Quantity is allowed
+[TRACE] 2017-04-26 08:38:16 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 08:38:16 Shop - Checking for in Stock=4 asked quantity=3
+[TRACE] 2017-04-26 08:38:16 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 08:38:16 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 08:38:16 Shop - Finding Customer by id=4
+[TRACE] 2017-04-26 08:38:16 Shop - Found Customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 08:38:16 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 08:38:16 Shop - Found customer's RentUnit=[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 08:38:16 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 08:38:16 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=4     title=Paul      
+rentUnit=
+[id=3     title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 08:38:16 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 08:41:03 Shop - Started rentSportEquipment() method with parameters : customerId=52 equipmentId=25 quantity=1
+[TRACE] 2017-04-26 08:41:03 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 08:41:03 Shop - Quantity is allowed
+[TRACE] 2017-04-26 08:41:03 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 08:41:03 Shop - Checking for in Stock=1 asked quantity=1
+[TRACE] 2017-04-26 08:41:03 Shop - Finding sportEquipment by id=25
+[TRACE] 2017-04-26 08:41:03 Shop - Found sportEquipment=[id=25    title=hat        price=92         category=little    ]
+[TRACE] 2017-04-26 08:41:03 Shop - Finding Customer by id=52
+[TRACE] 2017-04-26 08:41:03 Shop - Found Customer=Customer : id=52    title=Peter     
+rentUnit=
+[id=51    title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 08:41:03 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 08:41:03 Shop - Found customer's RentUnit=[id=51    title=sweater    price=1000       category=medium    ]
+
+[TRACE] 2017-04-26 08:41:03 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 08:41:03 Shop - Rented 1 sportEquipment=[id=25    title=hat        price=92         category=little    ] to customer=Customer : id=52    title=Peter     
+rentUnit=
+[id=51    title=sweater    price=1000       category=medium    ]
+[id=25    title=hat        price=92         category=little    ]
+
+[TRACE] 2017-04-26 08:41:03 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 08:41:03 Shop - Started rentSportEquipment() method with parameters : customerId=54 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 08:41:03 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 08:41:03 Shop - Quantity is allowed
+[TRACE] 2017-04-26 08:41:03 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 08:41:03 Shop - Checking for in Stock=7 asked quantity=3
+[TRACE] 2017-04-26 08:41:03 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 08:41:03 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 08:41:03 Shop - Finding Customer by id=54
+[TRACE] 2017-04-26 08:41:03 Shop - Found Customer=Customer : id=54    title=Paul      
+rentUnit=
+[id=53    title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 08:41:03 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 08:41:03 Shop - Found customer's RentUnit=[id=53    title=jacket     price=1000       category=little    ]
+
+[TRACE] 2017-04-26 08:41:03 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 08:41:03 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=54    title=Paul      
+rentUnit=
+[id=53    title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 08:41:03 Shop - Finished rentSportEquipment() method
+[TRACE] 2017-04-26 08:41:03 Shop - Started rentSportEquipment() method with parameters : customerId=54 equipmentId=1 quantity=3
+[TRACE] 2017-04-26 08:41:03 Shop - Checking for allowed quantity.Allowed is =3
+[TRACE] 2017-04-26 08:41:03 Shop - Quantity is allowed
+[TRACE] 2017-04-26 08:41:03 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 08:41:03 Shop - Checking for in Stock=4 asked quantity=3
+[TRACE] 2017-04-26 08:41:03 Shop - Finding sportEquipment by id=1
+[TRACE] 2017-04-26 08:41:03 Shop - Found sportEquipment=[id=1     title=coat       price=301        category=large     ]
+[TRACE] 2017-04-26 08:41:03 Shop - Finding Customer by id=54
+[TRACE] 2017-04-26 08:41:03 Shop - Found Customer=Customer : id=54    title=Paul      
+rentUnit=
+[id=53    title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 08:41:03 Shop - Finding customer's RentUnit
+[TRACE] 2017-04-26 08:41:03 Shop - Found customer's RentUnit=[id=53    title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 08:41:03 Shop - Adding sportEquipment to customer's rentUnits.
+[INFO ] 2017-04-26 08:41:03 Shop - Rented 3 sportEquipment=[id=1     title=coat       price=301        category=large     ] to customer=Customer : id=54    title=Paul      
+rentUnit=
+[id=53    title=jacket     price=1000       category=little    ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+[id=1     title=coat       price=301        category=large     ]
+
+[TRACE] 2017-04-26 08:41:03 Shop - Finished rentSportEquipment() method

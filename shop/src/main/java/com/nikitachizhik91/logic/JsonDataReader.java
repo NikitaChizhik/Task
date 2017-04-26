@@ -40,7 +40,7 @@ public final class JsonDataReader {
 
 			Iterator<JSONObject> iterator = jsonData.iterator();
 			int goodsQuantity = 1;
-			int id = 0;
+			int id = 1;
 
 			while (iterator.hasNext()) {
 
@@ -51,7 +51,7 @@ public final class JsonDataReader {
 				String priceString = (String) next.get("price");
 				int price = Integer.parseInt(priceString);
 
-				SportEquipment sportEquipment = new SportEquipment(++id, title, price, new Category(++id, category));
+				SportEquipment sportEquipment = new SportEquipment(id++, title, price, new Category(id++, category));
 
 				if (goods.containsKey(sportEquipment)) {
 					goods.put(sportEquipment, goods.get(sportEquipment) + 1);
@@ -81,7 +81,7 @@ public final class JsonDataReader {
 			JSONArray jsonData = (JSONArray) obj;
 
 			Iterator<JSONObject> iterator = jsonData.iterator();
-			int id = 0;
+			int id = 50;
 
 			while (iterator.hasNext()) {
 

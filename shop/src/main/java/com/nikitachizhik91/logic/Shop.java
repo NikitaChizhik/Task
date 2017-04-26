@@ -70,7 +70,6 @@ public class Shop {
 			return false;
 		}
 		log.trace("Quantity is allowed");
-
 		log.trace("Finding sportEquipment by id=" + equipmentId);
 
 		SportEquipment sportEquipment = findSportEquipmentById(equipmentId);
@@ -105,13 +104,11 @@ public class Shop {
 		Customer customer = findCustomer(customerId);
 
 		log.trace("Found Customer=" + customer);
-
 		log.trace("Finding customer's RentUnit");
 
 		RentUnit customerRentUnit = customer.getRentUnit();
 
 		log.trace("Found customer's RentUnit=" + customerRentUnit);
-
 		log.trace("Adding sportEquipment to customer's rentUnits.");
 
 		for (int i = 0; i < quantity; i++) {
